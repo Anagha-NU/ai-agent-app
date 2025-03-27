@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 ENDPOINT = os.getenv("ASTRA_ENDPOINT")
-TOKEN = os.getenv("ASTRA_DB_APPLICATION_TOKEN")
+TOKEN = os.getenv("ASTRA")
 
 
 @st.cache_resource

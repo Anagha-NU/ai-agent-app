@@ -8,8 +8,8 @@ import os
 load_dotenv()
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = "34c16f5c-70e4-4bb6-9c51-89a41a653efd"
-APPLICATION_TOKEN = os.getenv("LANGFLOW_TOKEN")
+LANGFLOW_ID = "5eb28c76-f940-4269-9421-f31ca32b4573"
+APPLICATION_TOKEN =  os.getenv("LANGFLOW_TOKEN")
 
 
 def dict_to_string(obj, level=0):
